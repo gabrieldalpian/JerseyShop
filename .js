@@ -33,3 +33,16 @@ function checkWinner(avgDolphins, avgKoalas) {
 // Check the winner for both data sets
 checkWinner(scoreDolphins1, scoreKoalas1);
 checkWinner(scoreDolphins2, scoreKoalas2);
+ 
+//-----------------------------------------------------------------------//
+
+// Arrow Functions // 
+
+const number = (number1, number2) => number1 + number2;
+
+const number1 = 5;
+const number2 = 10;
+
+console.log(nome(number1, number2));
+
+//output: 15 //
