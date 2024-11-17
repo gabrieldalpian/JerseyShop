@@ -36,13 +36,373 @@ checkWinner(scoreDolphins2, scoreKoalas2);
  
 //-----------------------------------------------------------------------//
 
-// Arrow Functions // 
+// global variable // 
+var nome = "Gabriel";
+console.log(nome);
 
-const number = (number1, number2) => number1 + number2;
+Gabriel
 
-const number1 = 5;
-const number2 = 10;
+//-----------//
 
-console.log(nome(number1, number2));
+// block scope  // 
+let idade = 20;
+console.log(idade);
 
-//output: 15 //
+20
+
+//-----------//
+
+// const // 
+
+const nome = "Mac";
+console.log(nome);
+
+Mac 
+
+//-----------//
+
+// arrays //
+
+               [0]       [1]      [2]
+var nomes = ['Gabriel','Felipe','Joao'];
+console.log(nomes[0]);
+
+Gabriel
+
+
+var nomes = ['Gabriel','Felipe'];
+nomes[0] = 'Felipe';
+console.log(nomes[0]);
+
+Felipe
+
+var nomes = ['Gabriel','Felipe'];
+nomes[0] = 'Felipe';
+nomes.push('Pedro');
+console.log(nomes[2]);
+
+Pedro
+
+
+//-----------//
+
+//conditions // 
+
+var numero = 20;
+var nome = 'Gabriel';
+
+if(nome == 'Joao'){
+	console.log("True");}
+else if(nome == 'Felipe'){
+	console.log("O nome e felipe");}
+else{
+	console.log('Marcos');}
+
+Marcos
+
+
+>= ('menor ou igual')
+> (menor)
+<= ('maior ou igual')
+< ('maior')
+% ('remainder')
+
+var numero = 20;
+var nome = 'Gabriel';
+
+if(numero <= 10){
+	console.log(' O numero e maior que 10 ');}
+
+('O numero e maior que 10')
+
+// ============================================ //
+
+!= (Diferente)
+
+if(nome != 'joao'){
+	console.log(" O nome eh diferente de joao")}
+
+('O nome eh diferente de joao')
+// ============================================= //
+&& ( e ) 
+|| (ou)
+
+if(numero == 20 && nome == 'Gabriel'){
+	console.log("true");}
+
+True
+
+if(numero == 20 || nome == 'Felipe'){
+	console.log("true");}
+
+True
+
+
+5 == '5'; // true, because '5' is coerced to a number
+5 === '5'; // false, because the types are different (number vs string)
+
+
+
+//-----------//
+
+
+// functions //
+
+function testes(){
+	console.log('Chamando a funcao testes')
+}
+testes();
+
+('Chamando a funcao testes')
+
+
+function testes(nome,idade){
+	console.log("O nome eh "+nome);
+	console.log("A idade eh "+idade);
+}
+testes('Gabriel',20);
+
+('O nome eh Gabriel')
+('A idade eh 20')
+
+
+function pegarNome(parametro){
+	if(parametro == 1){
+		return "Gabriel";
+	}else
+		return "Outro nome";
+	}
+
+var nome = pegarNome(1)
+console.log(nome);
+
+Gabriel
+
+
+
+var funcao = function(){
+	alert("Ola mundo");
+}
+funcao();
+
+('Ola mundo')
+
+
+// ========================== //
+
+
+(function(){
+	alert("ola mundo");
+ })();
+
+('Ola mundo')
+
+//-----------//
+
+
+// while // 
+
+var n = 0;
+while(n < 10){
+	console.log(n);
+	n++;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+//-----------//
+
+// For //
+
+for(var i = 5; i <= 10; i++){
+	console.log(i);
+}
+
+5
+6
+7
+8
+9
+10
+
+//-----------//
+
+// DO //
+
+var n = 5;
+do{
+	console.log(n);
+	n++;
+}while(n < 10);
+
+5
+6
+7
+8
+9
+
+//-----------//
+
+// ForEach //
+
+var c = ["Gabriel", "Lucas", "Pedro"];
+c.forEach(function(value){
+	console.log(value);
+})
+
+Gabriel
+Lucas 
+Pedro
+
+//-----------//
+
+// prompt //
+
+var nome = prompt("Qual seu nome?");
+var idade1 = prompt('Qual sua idade?');
+var cidade = prompt('Qual sua cidade?');
+	console.log('O nome e '+nome);console.log(`my name is ${firstNamee}, and my last name is ${lastNamee}`);
+	console.log("A iidade eh "+idade);
+	console.log("A cidade eh "+cidade);
+
+('O nome e Gabriel')
+('A idade e 20')
+('A cidade e Kearny')
+
+
+//-----------//
+
+// Age Calculator //
+
+var anoNascimento = prompt("Informe o ano do seu nascimento nascimento");
+var anoAtual = prompt("Informe o ano atual");
+
+var idadeFinal = anoAtual - anoNascimento;
+alert(" a idade final e"+idadeFinal);
+
+2023 - 2003 
+('A idade final e 20')
+
+//-----------//
+
+// dollar sign //
+
+const firstName = 'gabe';
+const lastName = 'pedro';
+
+console.log(`My name is ${firstName}, and my last name is ${lastName}`);
+
+//-----------//
+
+// Average scores using IF - ELSE IF - ELSE //
+
+const scoreDolphins = (96 + 108 + 89) / 3; // Average score for Dolphins
+const scoreKoalas = (88 + 91 + 110) / 3;  // Average score for Koalas
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins) {
+    console.log("Koalas win the trophy");
+} else {
+    console.log("It's a draw");
+}
+
+
+//-----------//
+
+// Switch statements //
+
+const day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("Start of the work week!");
+        break;
+    case "Wednesday":
+        console.log("Hump day!");
+        break;
+    case "Friday":
+        console.log("Weekend is almost here!");
+        break;
+    default:
+        console.log("It's just another day.");
+}
+
+
+//-----------//
+
+
+// Ternary Operator 
+
+const age = 20;
+const message = age >= 18 ? "You're an adult" : "You're a minor";
+console.log(message);
+
+//-----------//
+
+// objetcs //
+
+const gabe = {
+    firstName:'Gabriel', 
+    lastName: 'Pedro', 
+    birthyear: 2003, 
+    job: 'Software Engineer',
+
+    calcAge: function (birthyear) {
+        return 2024 - birthyear;
+    }
+};
+
+//----------- // 
+
+// This time, let's use objects to implement the calculations! Remember: BMI = mass / (height * height) (mass in kg and height in meters).
+
+// Task 1 = For each of them, create an object with properties for their full name, mass, and height (Mark Miller and John Smith). Name these objects as mark and john, and their properties exactly as fullName, mass and height. 
+
+// Task 2 = Create a calcBMI method on each object to calculate the BMI (the same method on both objects). Assign the BMI value to a property called bmi (lowercase), and also return it from the method.
+
+// Task 3 = Log to the console who has the higher BMI, together with the full name and the respective BMI. Example: "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!".
+
+// TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. 
+
+const mark = {
+    fullName: "Mark Miller",
+    mass: 75,
+    height: 1.8,
+    calcBMI: function() {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+    }
+  };
+  
+  const john = {
+    fullName: "John Smith",
+    mass: 85,
+    height: 1.75,
+    calcBMI: function() {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+    }
+  };
+  
+  mark.calcBMI();
+  john.calcBMI();
+  
+  console.log(mark.bmi, john.bmi);
+  
+  // Compare BMIs
+  if (mark.bmi > john.bmi) {
+    console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})!`);
+  } else if (john.bmi > mark.bmi) {
+    console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`);
+  } else {
+    console.log(`${mark.fullName} and ${john.fullName} have the same BMI (${mark.bmi})!`);
+  }
+
