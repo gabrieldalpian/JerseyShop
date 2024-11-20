@@ -426,3 +426,56 @@ const mark = {
     console.log(`${mark.fullName} and ${john.fullName} have the same BMI (${mark.bmi})!`);
   }
 
+  //-----------//
+
+
+  // THE BEST WAY OF FETCHING API 
+
+const url = x;
+const apikey = y;
+
+fetch(`url ${url}apikey${apikey}`)
+    .then(response => response.json ())
+    .then(data => {
+        console.log(data);
+})
+    .catch(error => {
+        console.log('error', error);
+});
+
+//-----------//
+
+// ANOTHER WAY OF FETCH REQUESTING 
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+.then(response=> response.json())
+.then(json=>console.log(json))
+
+
+const request = ('https://restcountries.eu/rest/v2/name/brazil');
+console.log(request);
+
+//-----------//
+
+// AND ONE MORE EXAMPLE OF FETCHING API
+
+const getCountryData = function (country) {
+    fetch(`https://restcountries.eu/rest/v2/name/${country}`)
+        .then(response => response.json())
+        .then(data => renderCountry(data[0]));
+  }; 
+  
+  getCountryData('brazil');
+
+  //-----------//
+
+// async and await = (they need to be together)
+
+async function pegarDados() {
+	const resultado = await fetch('https://github.com/gabrieldalpian')
+	console.log('resultado', resultado);
+}
+
+//----------- //
+
+
