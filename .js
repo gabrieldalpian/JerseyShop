@@ -221,6 +221,13 @@ while(n < 10){
 
 // For Loops//
 
+for (let i = 5; i <= 7; i++)
+    console.log(i);
+
+5
+6
+7
+
 for(var i = 5; i <= 10; i++){
 	console.log(i);
 }
