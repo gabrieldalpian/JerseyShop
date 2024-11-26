@@ -485,4 +485,19 @@ async function pegarDados() {
 
 //----------- //
 
+// Handling ERRORS //
+
+function checkNumber(num) {
+    if (num < 0) {
+      throw new Error("The number must be positive");
+    }
+    return num;
+  }
+  
+  try {
+    checkNumber(-1); 
+  } catch (error) {
+    console.log("Error caught:", error.message);
+  }
+
 
