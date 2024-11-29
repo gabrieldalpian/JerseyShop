@@ -9,8 +9,14 @@ function Header() {
             <li>Cart</li>
           </ul>
         </nav>
-      </header>
+
+       <div
+        className="title"> Football Elite
+       </div>
+      </header> 
     );
+
+
   }
   
   export default Header;

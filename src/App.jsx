@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <Header />
-      <div>
+
+      <div className="body-content">
         <p>Body content goes here</p>
       </div>
+
       <Footer />
     </>
   )
