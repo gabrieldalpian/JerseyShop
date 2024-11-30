@@ -3,7 +3,17 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 My Shop</p>
+      <div className="site-name">
+        Football Elite 
+      </div>
+
+      <div className="location">
+        123 Main Street, New York
+      </div>
+
+      <div className="Contact">
+        Footballelite@gmail.com
+      </div>
     </footer>
   );
 };

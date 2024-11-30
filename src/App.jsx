@@ -7,6 +7,11 @@ import image2 from './assets/intermilano.jpg';
 import image3 from './assets/newcastle.jpg';
 import image4 from './assets/arsenal.jpg';
 import image5 from './assets/vasco.jpg';
+import image7 from './assets/main.jpg';
+
+
+
+
 
 
 function App() {
@@ -51,6 +56,21 @@ function App() {
         <button> SHOP ALL </button>
       </div>
 
+      <section>
+        <div className="about-section">
+          <h2> About 
+            <br></br>our company  </h2>
+          <p> Welcome to Jersey Paradise! We're passionate<br></br> about delivering high-quality, authentic jerseys <br></br>
+          that let you proudly showcase your team spirit in style.<br></br> Whether you're a die-hard fan or just love the game,<br></br> we have the perfect jersey waiting for you!
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div className="imagem">
+          <img src={image7} />
+        </div>
+      </section>
 
       <Footer />
     </>
