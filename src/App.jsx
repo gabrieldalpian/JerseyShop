@@ -73,6 +73,9 @@ function App() {
       </section>
 
       <Footer />
+      <br></br>
+      <br></br>
+
     </>
   )
 }
