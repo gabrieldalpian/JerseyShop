@@ -10,10 +10,6 @@ import image5 from './assets/vasco.jpg';
 import image7 from './assets/main.jpg';
 
 
-
-
-
-
 function App() {
   return (
     <>
@@ -80,4 +76,5 @@ function App() {
   )
 }
 
-export default App
+export default App;
+
