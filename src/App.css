@@ -52,7 +52,7 @@ nav li {
   margin-top: 100px;
   margin-left: 50px;
   object-fit: cover;
-  object-position: center -205px; /* Moves the image 20px up */
+  object-position: center -205px; 
 
 }
 .featured-products {
@@ -234,5 +234,5 @@ nav li {
 .shop-page-jersey-item img {
   width: 70%;
   height: auto;
-  border-radius: 8px; /* Optional, for rounded corners */
+  border-radius: 8px; 
 }
