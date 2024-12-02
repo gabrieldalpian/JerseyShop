@@ -217,3 +217,22 @@ nav li {
   line-height: 30px;
   font-family: 'Open Sans', sans-serif;
 }
+
+.shop-page-jersey-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.00005px; 
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.shop-page-jersey-item {
+  width: 18%; 
+  text-align: center;
+}
+
+.shop-page-jersey-item img {
+  width: 70%;
+  height: auto;
+  border-radius: 8px; /* Optional, for rounded corners */
+}
