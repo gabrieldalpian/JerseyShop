@@ -52,6 +52,8 @@ function ShopPage() {
                     Chelsea Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -60,6 +62,8 @@ function ShopPage() {
                     Arsenal Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -68,14 +72,19 @@ function ShopPage() {
                     Fulham Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
+
             <div className="shop-page-jersey-item">
                 <img src={image11} alt="Manchester City Jersey" />
                 <p>
                     Manchester City Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -84,206 +93,262 @@ function ShopPage() {
                     Manchester United Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image13} alt="Manchester United Jersey" />
+                <img src={image13} alt="Internacional Jersey" />
                 <p>
-                    Manchester United Jersey 
+                Internacional Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image14} alt="Manchester United Jersey" />
+                <img src={image14} alt="Corinthians Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Corinthians Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image15} alt="Manchester United Jersey" />
+                <img src={image15} alt="Gremio Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Gremio Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image16} alt="Manchester United Jersey" />
+                <img src={image16} alt=" Flamengo Jersey " />
                 <p>
-                    Manchester United Jersey 
+                    Flamengo Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image17} alt="Manchester United Jersey" />
+                <img src={image17} alt="Fluminense Jersey " />
                 <p>
-                    Manchester United Jersey 
+                    Fluminense Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image18} alt="Manchester United Jersey" />
+                <img src={image18} alt="Bayern Munchen Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Bayern Munchen Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image19} alt="Manchester United Jersey" />
+                <img src={image19} alt="Borussia Dortmund Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Borussia Dortmund Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image20} alt="Manchester United Jersey" />
+                <img src={image20} alt="Frankfurt Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Frankfurt Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image22} alt="Manchester United Jersey" />
+                <img src={image22} alt="Schalke04" />
                 <p>
-                    Manchester United Jersey 
+                    Schalke04 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image21} alt="Manchester United Jersey" />
+                <img src={image21} alt="Bayern Leverkusen" />
                 <p>
-                    Manchester United Jersey 
+                    Bayern Leverkusen 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image29} alt="Manchester United Jersey" />
+                <img src={image29} alt="Real Madrid Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Real Madrid Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image28} alt="Manchester United Jersey" />
+                <img src={image28} alt="Barcelona Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Barcelona Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image30} alt="Manchester United Jersey" />
+                <img src={image30} alt="La Coruna Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    La Coruna Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image31} alt="Manchester United Jersey" />
+                <img src={image31} alt="Rayo Valecano" />
                 <p>
-                    Manchester United Jersey 
+                    Rayo Valecano
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image32} alt="Manchester United Jersey" />
+                <img src={image32} alt="Real Valladoli" />
                 <p>
-                    Manchester United Jersey 
+                    Real Valladoli
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image33} alt="Manchester United Jersey" />
+                <img src={image33} alt="Inter Miami Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Inter Miami Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image34} alt="Manchester United Jersey" />
+                <img src={image34} alt="LAFC" />
                 <p>
-                    Manchester United Jersey 
+                    LAFC Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image35} alt="Manchester United Jersey" />
+                <img src={image35} alt="Philadelphia Union" />
                 <p>
-                    Manchester United Jersey 
+                    Philadelphia Union Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image37} alt="Manchester United Jersey" />
+                <img src={image37} alt="Orlando City Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Orlando City Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image36} alt="Manchester United Jersey" />
+                <img src={image36} alt="LA Galaxy" />
                 <p>
-                    Manchester United Jersey 
+                    LA Galaxy Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image38} alt="Manchester United Jersey" />
+                <img src={image38} alt="Paris Saint Germain" />
                 <p>
-                    Manchester United Jersey 
+                    Paris Saint Germain Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
-            </div><div className="shop-page-jersey-item">
-                <img src={image39} alt="Manchester United Jersey" />
+            </div>
+            <div className="shop-page-jersey-item">
+                <img src={image39} alt="Olympique Marsellie" />
                 <p>
-                    Manchester United Jersey 
+                    Olympique Marsellie Jersey
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
-            </div><div className="shop-page-jersey-item">
-                <img src={image41} alt="Manchester United Jersey" />
+            </div>
+            <div className="shop-page-jersey-item">
+                <img src={image40} alt="Lyon Jersey" />
                 <p>
-                    Manchester United Jersey 
+                    Lyon Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
-            </div><div className="shop-page-jersey-item">
-                <img src={image40} alt="Manchester United Jersey" />
+            </div>
+            <div className="shop-page-jersey-item">
+                <img src={image41} alt="Olympique Marsellie" />
                 <p>
-                    Manchester United Jersey 
+                    Olympique Marsellie Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
-            </div><div className="shop-page-jersey-item">
-                <img src={image42} alt="Manchester United Jersey" />
+            </div>
+            
+            <div className="shop-page-jersey-item">
+                <img src={image42} alt="Paris Saint Germain" />
                 <p>
-                    Manchester United Jersey 
+                    Paris Saint Germain Jersey 
                     <br />
                     $60
+                    <br />
+                    <button> BUY NOW </button>
                 </p>
             </div>
         </div>
-        
         <Footer /> 
       </div>
     );

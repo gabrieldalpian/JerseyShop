@@ -16,7 +16,8 @@
   font-style: normal;
   font-size: 35px;
   line-height: 22px;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
 }
   
 
@@ -76,7 +77,6 @@ nav li {
 .jersey-item {
   text-align: center;
   width: auto; 
-
 }
 
 .jersey-item img {
@@ -91,7 +91,6 @@ nav li {
   color: #030303; 
   font-style:normal;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .button-view {
@@ -99,16 +98,16 @@ nav li {
   text-align: center;
 }
 
-.button-view button {
-  padding: 30px 80px;
+.button-view .button {
+  padding: 30px 80px !important;
   border-radius: 35px;
-  background-color: black;
-  font-style:normal;
-  color: white;
+  background-color: black !important;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 12px;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-
+  text-decoration: none; 
+  display: inline-block; 
 }
 
 .about-section {
@@ -228,11 +227,33 @@ nav li {
 
 .shop-page-jersey-item {
   width: 18%; 
+  margin-bottom: 100px;
   text-align: center;
 }
+
 
 .shop-page-jersey-item img {
   width: 70%;
   height: auto;
   border-radius: 8px; 
+}
+.shop-page-jersey-item p {
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fff; 
+  border-radius: 20px; 
+  padding: 10px; 
+  margin-top: 1px; 
+  display: inline-block;
+  line-height: 1.5;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+.shop-page-jersey-item button {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
 }

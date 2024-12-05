@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ShopPage from './pages/ShopPage';
@@ -63,7 +64,7 @@ function App() {
               </div>
 
               <div className="button-view">
-                <button>SHOP ALL</button>
+                <Link to="/shop" className="button">Shop All</Link>
               </div>
 
               <section>
