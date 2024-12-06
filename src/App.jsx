@@ -48,9 +48,11 @@ function App() {
                     <br />
                     $60
                   </p>
-                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
-
+                  <button onClick={() => addToCart({ name: 'Inter Milan Jersey', price: 60, image: image2 })}>
+                    BUY NOW
+                  </button>
                 </div>
+
                 <div className="jersey-item">
                   <img src={image3} alt="Newcastle jersey" />
                   <p>
@@ -58,8 +60,9 @@ function App() {
                     <br />
                     $60
                   </p>
-                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
-
+                  <button onClick={() => addToCart({ name: 'Newcastle Jersey', price: 60, image: image3 })}>
+                    BUY NOW
+                  </button>
                 </div>
                 <div className="jersey-item">
                   <img src={image4} alt="Arsenal jersey" />
@@ -68,8 +71,9 @@ function App() {
                     <br />
                     $60
                   </p>
-                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
-
+                  <button onClick={() => addToCart({ name: 'Arsenal Jersey', price: 60, image: image4 })}>
+                    BUY NOW
+                  </button>
                 </div>
                 <div className="jersey-item">
                   <img src={image5} alt="Vasco da Gama jersey" />
@@ -78,8 +82,9 @@ function App() {
                     <br />
                     $60
                   </p>
-                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
-
+                  <button onClick={() => addToCart({ name: 'Vasco Da Gama Jersey', price: 60, image: image5 })}>
+                    BUY NOW
+                  </button>
                 </div>
               </div>
 
@@ -122,5 +127,4 @@ function App() {
     </>
   );
 }
-
 export default App;

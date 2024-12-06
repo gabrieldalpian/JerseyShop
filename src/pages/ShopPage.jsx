@@ -57,7 +57,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Chelsea Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Chelsea Jersey', price: 60, image: image8 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -67,7 +69,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Arsenal Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Arsenal Jersey', price: 60, image: image9 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -77,7 +81,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Fulham Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Fulham Jersey', price: 60, image: image10 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
 
@@ -88,7 +94,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Man City Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Man City Jersey', price: 60, image: image11 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -98,7 +106,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Man United Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Man United Jersey', price: 60, image: image12 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -108,7 +118,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Internacional Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Internacional Jersey', price: 60, image: image13 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -118,7 +130,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Corinthians Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Corinthians Jersey', price: 60, image: image14 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -128,7 +142,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Gremio Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Gremio Jersey', price: 60, image: image15 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -138,7 +154,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Flamengo Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Flamengo Jersey', price: 60, image: image16 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -148,17 +166,21 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Fluminense Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Fluminense Jersey', price: 60, image: image17 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image18} alt="Bayern Munich Jersey" />
                 <p>
-                <strong>Bayern Munchen Jersey</strong>
+                <strong>Bayern Munich Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Bayer Munich Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Bayern Munich Jersey', price: 60, image: image18 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -168,7 +190,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Borussia Dortmund Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Borussia Dortmund Jersey', price: 60, image: image19 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -178,7 +202,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Frankfurt Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Frankfurt Jersey', price: 60, image: image20 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -188,7 +214,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Schalke 04 Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Schalke 04 Jersey', price: 60, image: image21 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -198,7 +226,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Bayern Leverkusen Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Bayern Leverkusen Jersey', price: 60, image: image22 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -208,7 +238,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Real Madrid Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Real Madrid Jersey', price: 60, image: image23 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -218,7 +250,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Barcelona Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Barcelona Jersey', price: 60, image: image24 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -228,7 +262,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('La Coruna Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'La Coruna Jersey', price: 60, image: image25 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -238,7 +274,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Rayo Vallecano Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Rayo Vallecano Jersey', price: 60, image: image26 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -248,7 +286,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Real Valladolid Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Real Valladolid Jersey', price: 60, image: image27 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -258,7 +298,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Inter Miami Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Inter Miami Jersey', price: 60, image: image28 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -268,7 +310,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('LAFC Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'LAFC Jersey', price: 60, image: image29 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -278,7 +322,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Philadelphia Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Philadelphia Jersey', price: 60, image: image30 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -288,7 +334,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Orlando City Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Orlando City Jersey', price: 60, image: image31 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -298,7 +346,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('LA Galaxy Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'LA Galaxy Jersey', price: 60, image: image32 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -308,7 +358,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('PSG Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'PSG Jersey', price: 60, image: image33 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -318,7 +370,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Olympique Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Olympique Jersey', price: 60, image: image34 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -328,7 +382,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Lyon Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Lyon Jersey', price: 60, image: image35 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
@@ -338,7 +394,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('Olympique Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'Olympique Jersey', price: 60, image: image36 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
             
@@ -349,7 +407,9 @@ function ShopPage({ addToCart, successMessage }) {
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart('PSG Jersey')}>BUY NOW</button>
+                    <button onClick={() => addToCart({ name: 'PSG Jersey', price: 60, image: image37 })}>
+                    BUY NOW
+                    </button>
                 </p>
             </div>
         </div>
@@ -364,3 +424,4 @@ function ShopPage({ addToCart, successMessage }) {
 }
   
 export default ShopPage;
+
