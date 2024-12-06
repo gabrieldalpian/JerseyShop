@@ -90,6 +90,7 @@ nav li {
 
 .jersey-item p {
   margin-top: 10px; 
+  margin-left: 15px;
   font-size: 17px;
   color: #030303; 
   font-style:normal;
@@ -112,6 +113,7 @@ nav li {
   font-family: 'Oswald', sans-serif;
   width: 70%;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .button-view {
@@ -311,7 +313,6 @@ nav li {
 
 .cart-container {
   padding: 20px;
-  background-color: #f9f9f9;
   min-height: 80vh;
   font-family: 'Arial', sans-serif;
 }
@@ -388,7 +389,7 @@ nav li {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;

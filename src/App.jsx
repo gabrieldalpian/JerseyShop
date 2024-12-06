@@ -128,7 +128,6 @@ function App() {
         <Route path="/shop" element={<ShopPage addToCart={addToCart} successMessage={successMessage} />} />
         <Route path="/cart" element={<CartPage cart={cart} />} />
         <Route path="/App" element={<App/>} />
-
       </Routes>
     </>
   );

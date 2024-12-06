@@ -186,11 +186,11 @@ function ShopPage({ addToCart, successMessage }) {
             <div className="shop-page-jersey-item">
                 <img src={image19} alt="Borussia Dortmund Jersey" />
                 <p>
-                <strong>Borussia Dortmund Jersey</strong>
+                <strong>Dortmund Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button onClick={() => addToCart({ name: 'Borussia Dortmund Jersey', price: 60, image: image19 })}>
+                    <button onClick={() => addToCart({ name: 'Dortmund Jersey', price: 60, image: image19 })}>
                     BUY NOW
                     </button>
                 </p>
