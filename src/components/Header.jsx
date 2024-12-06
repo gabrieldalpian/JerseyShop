@@ -10,7 +10,7 @@ function Header() {
           <li><Link to="/cart">Cart</Link></li>
         </ul>
       </nav>
-      <div className="title">Football Elite</div>
+      <div className="title"><Link to="/App">Football Elite</Link></div>
     </header>
   );
 }

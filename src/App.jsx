@@ -19,7 +19,7 @@ function App() {
 
   const addToCart = (item) => {
     setCart([...cart, item]);
-    setSuccessMessage(`Your ${item} was added to the cart!`);
+    setSuccessMessage(`Your ${item.name} was added to the cart!`);
 
     setTimeout(() => {
       setSuccessMessage('');
@@ -104,7 +104,7 @@ function App() {
                     our company
                   </h2>
                   <p>
-                    Welcome to Jersey Paradise! We're passionate about delivering high-quality,
+                    Welcome to Jersey Paradise! We're passionate about delivering <br></br>high-quality,
                     authentic jerseys that let you proudly showcase your team spirit in style.
                     Whether you're a die-hard fan or just love the game, we have the perfect jersey
                     waiting for you!
@@ -118,11 +118,17 @@ function App() {
                 </div>
               </section>
               <Footer />
+              <br></br>
+              <br></br>
+              <br></br>
+
             </>
           }
         />
         <Route path="/shop" element={<ShopPage addToCart={addToCart} successMessage={successMessage} />} />
         <Route path="/cart" element={<CartPage cart={cart} />} />
+        <Route path="/App" element={<App/>} />
+
       </Routes>
     </>
   );
