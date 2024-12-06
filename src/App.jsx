@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ShopPage from './pages/ShopPage';
 import CartPage from './pages/CartPage';
-import './app.css';
+import './App.css';
 import image1 from './assets/jzy.jpg';
 import image2 from './assets/intermilano.jpg';
 import image3 from './assets/newcastle.jpg';
