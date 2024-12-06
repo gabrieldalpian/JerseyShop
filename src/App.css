@@ -221,7 +221,7 @@ nav li {
   display: flex;
   flex-wrap: wrap;
   gap: 0.00005px; 
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: center;
 }
 
@@ -256,4 +256,18 @@ nav li {
   border-radius: 10px;
   border: none;
   text-align: center;
+}
+.shop-page-title {
+  text-align: center;
+  margin-top: 115px;
+  color: black;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cart-overview {
+  margin-left: 50px;
+  margin-top: 50px;
 }

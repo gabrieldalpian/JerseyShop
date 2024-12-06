@@ -2,7 +2,9 @@ import React from 'react';
 
 function CartPage () {
     return (
-        <h1> Shopping Cart </h1>
+        <div className="cart-overview">
+            <h1> Cart Overview </h1>
+        </div>
     );
 }
 

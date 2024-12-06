@@ -44,6 +44,10 @@ function ShopPage() {
     return (
       <div>
         <Header /> 
+
+        <div className="shop-page-title">
+            <h1>Jersey Paradise</h1>
+        </div>
         
         <div className="shop-page-jersey-images-container">
             <div className="shop-page-jersey-item">
