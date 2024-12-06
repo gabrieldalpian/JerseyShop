@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Header from './components/Header';
@@ -14,6 +14,18 @@ import image5 from './assets/vasco.jpg';
 import image7 from './assets/main.jpg';
 
 function App() {
+  const [cart, setCart] = useState([]);
+  const [successMessage, setSuccessMessage] = useState(''); 
+
+  const addToCart = (item) => {
+    setCart([...cart, item]);
+    setSuccessMessage(`Your ${item} was added to the cart!`);
+
+    setTimeout(() => {
+      setSuccessMessage('');
+    }, 2000);
+  };
+
   return (
     <>
       <Routes>
@@ -36,6 +48,8 @@ function App() {
                     <br />
                     $60
                   </p>
+                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
+
                 </div>
                 <div className="jersey-item">
                   <img src={image3} alt="Newcastle jersey" />
@@ -44,6 +58,8 @@ function App() {
                     <br />
                     $60
                   </p>
+                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
+
                 </div>
                 <div className="jersey-item">
                   <img src={image4} alt="Arsenal jersey" />
@@ -52,6 +68,8 @@ function App() {
                     <br />
                     $60
                   </p>
+                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
+
                 </div>
                 <div className="jersey-item">
                   <img src={image5} alt="Vasco da Gama jersey" />
@@ -60,8 +78,14 @@ function App() {
                     <br />
                     $60
                   </p>
+                  <button onClick={() => addToCart('Inter Milan jersey')}>BUY NOW</button>
+
                 </div>
               </div>
+
+              {successMessage && (
+                <div className="success-message">{successMessage}</div>
+              )}
 
               <div className="button-view">
                 <Link to="/shop" className="button">Shop All</Link>
@@ -92,8 +116,8 @@ function App() {
             </>
           }
         />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/shop" element={<ShopPage addToCart={addToCart} successMessage={successMessage} />} />
+        <Route path="/cart" element={<CartPage cart={cart} />} />
       </Routes>
     </>
   );

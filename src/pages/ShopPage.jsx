@@ -40,7 +40,7 @@ import image42 from '../assets/paristwo.jpg';
 
 
 
-function ShopPage() {
+function ShopPage({ addToCart, successMessage }) {
     return (
       <div>
         <Header /> 
@@ -53,306 +53,311 @@ function ShopPage() {
             <div className="shop-page-jersey-item">
                 <img src={image8} alt="Chelsea Jersey" />
                 <p>
-                    Chelsea Jersey 
+                    <strong>Chelsea Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Chelsea Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image9} alt="Arsenal Jersey" />
                 <p>
-                    Arsenal Jersey 
+                <strong>Arsenal Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Arsenal Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image10} alt="Fulham Jersey" />
                 <p>
-                    Fulham Jersey 
+                <strong>Fulham Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Fulham Jersey')}>BUY NOW</button>
                 </p>
             </div>
 
             <div className="shop-page-jersey-item">
                 <img src={image11} alt="Manchester City Jersey" />
                 <p>
-                    Manchester City Jersey 
+                <strong>Man City Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Man City Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image12} alt="Manchester United Jersey" />
                 <p>
-                    Manchester United Jersey 
+                <strong>Man United Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Man United Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image13} alt="Internacional Jersey" />
                 <p>
-                Internacional Jersey
+                <strong>Internacional Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Internacional Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image14} alt="Corinthians Jersey" />
                 <p>
-                    Corinthians Jersey
+                <strong>Corinthians Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Corinthians Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image15} alt="Gremio Jersey" />
                 <p>
-                    Gremio Jersey
+                <strong>Gremio Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Gremio Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image16} alt=" Flamengo Jersey " />
                 <p>
-                    Flamengo Jersey
+                <strong>Flamengo Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Flamengo Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image17} alt="Fluminense Jersey " />
                 <p>
-                    Fluminense Jersey 
+                <strong>Fluminense Jersey </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Fluminense Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image18} alt="Bayern Munchen Jersey" />
+                <img src={image18} alt="Bayern Munich Jersey" />
                 <p>
-                    Bayern Munchen Jersey 
+                <strong>Bayern Munchen Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Bayer Munich Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image19} alt="Borussia Dortmund Jersey" />
                 <p>
-                    Borussia Dortmund Jersey
+                <strong>Borussia Dortmund Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Borussia Dortmund Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image20} alt="Frankfurt Jersey" />
                 <p>
-                    Frankfurt Jersey 
+                <strong>Frankfurt Jersey </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Frankfurt Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image22} alt="Schalke04" />
                 <p>
-                    Schalke04 
+                <strong>Schalke04 </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Schalke 04 Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image21} alt="Bayern Leverkusen" />
                 <p>
-                    Bayern Leverkusen 
+                <strong>Bayern Leverkusen</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Bayern Leverkusen Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image29} alt="Real Madrid Jersey" />
                 <p>
-                    Real Madrid Jersey 
+                <strong>Real Madrid Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Real Madrid Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image28} alt="Barcelona Jersey" />
                 <p>
-                    Barcelona Jersey 
+                <strong>Barcelona Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Barcelona Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image30} alt="La Coruna Jersey" />
                 <p>
-                    La Coruna Jersey 
+                <strong>La Coruna Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('La Coruna Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image31} alt="Rayo Valecano" />
+                <img src={image31} alt="Rayo Vallecano" />
                 <p>
-                    Rayo Valecano
+                <strong>Rayo Valecano</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Rayo Vallecano Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
-                <img src={image32} alt="Real Valladoli" />
+                <img src={image32} alt="Real Valladolid" />
                 <p>
-                    Real Valladoli
+                <strong>Real Valladolid</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Real Valladolid Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image33} alt="Inter Miami Jersey" />
                 <p>
-                    Inter Miami Jersey
+                <strong>Inter Miami Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Inter Miami Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image34} alt="LAFC" />
                 <p>
-                    LAFC Jersey 
+                <strong>LAFC Jersey </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('LAFC Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image35} alt="Philadelphia Union" />
                 <p>
-                    Philadelphia Union Jersey 
+                <strong>Philadelphia Jersey </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Philadelphia Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image37} alt="Orlando City Jersey" />
                 <p>
-                    Orlando City Jersey 
+                <strong>Orlando City Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Orlando City Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image36} alt="LA Galaxy" />
                 <p>
-                    LA Galaxy Jersey 
+                <strong>LA Galaxy Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('LA Galaxy Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image38} alt="Paris Saint Germain" />
                 <p>
-                    Paris Saint Germain Jersey
+                <strong>PSG Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('PSG Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image39} alt="Olympique Marsellie" />
                 <p>
-                    Olympique Marsellie Jersey
+                <strong>Olympique Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Olympique Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image40} alt="Lyon Jersey" />
                 <p>
-                    Lyon Jersey 
+                <strong>Lyon Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Lyon Jersey')}>BUY NOW</button>
                 </p>
             </div>
             <div className="shop-page-jersey-item">
                 <img src={image41} alt="Olympique Marsellie" />
                 <p>
-                    Olympique Marsellie Jersey 
+                <strong>Olympique Jersey</strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('Olympique Jersey')}>BUY NOW</button>
                 </p>
             </div>
             
             <div className="shop-page-jersey-item">
                 <img src={image42} alt="Paris Saint Germain" />
                 <p>
-                    Paris Saint Germain Jersey 
+                <strong>PSG Jersey </strong>
                     <br />
                     $60
                     <br />
-                    <button> BUY NOW </button>
+                    <button onClick={() => addToCart('PSG Jersey')}>BUY NOW</button>
                 </p>
             </div>
         </div>
+
+        {successMessage && (
+                <div className="success-message">{successMessage}</div>
+            )}
+
         <Footer /> 
       </div>
     );

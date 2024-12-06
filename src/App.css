@@ -239,7 +239,7 @@ nav li {
 }
 .shop-page-jersey-item p {
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-  background-color: #fff; 
+  background-color: #f8f8f8; 
   border-radius: 20px; 
   padding: 10px; 
   margin-top: 1px; 
@@ -247,6 +247,7 @@ nav li {
   line-height: 1.5;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
+  width: 70%;
 }
 .shop-page-jersey-item button {
   cursor: pointer;
@@ -270,4 +271,16 @@ nav li {
 .cart-overview {
   margin-left: 50px;
   margin-top: 50px;
+}
+.success-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  font-size: 16px;
 }
