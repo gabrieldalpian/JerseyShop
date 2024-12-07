@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 .title {
   display: flex;
   justify-self: flex-start;
@@ -404,4 +406,31 @@ nav li {
   font-size: 28px;
   color: #e60000;
   font-weight: bold;
+}
+
+
+@media screen and (max-width: 390px) {
+  .title {
+    font-size: 22px; 
+    top: 18px; 
+    left: 15px;
+  }
+  nav {
+    top: 0.1px;
+    right: 0px;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  .body-content img {
+    width: 100%; /* Set the image width to 100% of the container */
+    height: 200px; /* Adjust the height to maintain aspect ratio */
+    margin-left: 0; 
+    margin-top: 50px;
+    object-position: center;
+  }
+  .featured-products {
+    margin-top: 15px;
+  }
+
 }
