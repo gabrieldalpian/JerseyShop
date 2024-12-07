@@ -508,4 +508,30 @@ nav li {
       text-align: left;  /* Ensure text stays aligned to the left */
       margin: 10px 0;  /* Add margin for spacing */
     }
+  .site-name {
+    margin-top: -200px;
+    margin-left: 60px;
+  }
+  .site-name p {
+    margin-left: 80px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  .location h2 {
+    margin-top: 25px;
+    margin-left: 140px;
+  } 
+  .location p {
+    white-space: nowrap;
+    margin-left: 85px;
+  }
+  .contact h2 {
+    margin-top: 30px;
+    margin-left: 140px;
+  }
+  .contact p {
+    margin-top: 15px;
+    margin-right: 90px
+
+  }
 }
