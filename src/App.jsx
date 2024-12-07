@@ -78,7 +78,7 @@ function App() {
                 <div className="jersey-item">
                   <img src={image5} alt="Vasco da Gama jersey" />
                   <p>
-                    Vasco da Gama jersey
+                    Vasco jersey
                     <br />
                     $60
                   </p>
