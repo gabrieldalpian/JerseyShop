@@ -419,9 +419,9 @@ nav li {
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 480px) {
   .title {
-    font-size: 22px; 
+    font-size: 22px;
     top: 18px; 
     left: 15px;
   }
