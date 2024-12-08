@@ -117,7 +117,9 @@ function App() {
                   <img src={image7} alt="About Us" />
                 </div>
               </section>
-              <Footer />
+              <div className='main-footer'>
+                <Footer />
+              </div>
               <br></br>
               <br></br>
               <br></br>

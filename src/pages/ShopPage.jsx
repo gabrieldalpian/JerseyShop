@@ -208,7 +208,7 @@ function ShopPage({ addToCart, successMessage }) {
             <div className="shop-page-jersey-item">
                 <img src={image22} alt="Schalke04" />
                 <p>
-                <strong>Schalke04 </strong>
+                <strong>Schalke 04 Jersey</strong>
                     <br />
                     $60
                     <br />
@@ -220,7 +220,7 @@ function ShopPage({ addToCart, successMessage }) {
             <div className="shop-page-jersey-item">
                 <img src={image21} alt="Bayern Leverkusen" />
                 <p>
-                <strong>Bayern Leverkusen</strong>
+                <strong> Bayern Leverkusen</strong>
                     <br />
                     $60
                     <br />
@@ -416,7 +416,9 @@ function ShopPage({ addToCart, successMessage }) {
                 <div className="success-message">{successMessage}</div>
             )}
 
-        <Footer /> 
+        <footer className="shop-page-footer">
+            <Footer />
+        </footer>
       </div>
     );
 }

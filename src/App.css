@@ -58,8 +58,8 @@ nav li {
   margin-left: 50px;
   object-fit: cover;
   object-position: center -205px; 
-
 }
+
 .featured-products {
   margin-top: 85px;
   text-align: center;
@@ -68,7 +68,7 @@ nav li {
   font-size: 35px;
   line-height: 22px;
   font-family: 'Open Sans', sans-serif;
-
+  color: #030303;
 }
 
 .jerseys-images {
@@ -183,9 +183,8 @@ nav li {
   text-align: left;
 
 }
-.footer {
+.main-footer {
   position: relative;
-  
   bottom: 0;
   width: 100%;
 }
@@ -269,6 +268,7 @@ nav li {
   height: auto;
   border-radius: 8px; 
 }
+
 .shop-page-jersey-item p {
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
   background-color: #f8f8f8; 
@@ -281,6 +281,7 @@ nav li {
   font-size: 15px;
   width: 70%;
 }
+
 .shop-page-jersey-item button {
   cursor: pointer;
   background-color: green;
@@ -290,6 +291,7 @@ nav li {
   border: none;
   text-align: center;
 }
+
 .shop-page-title {
   text-align: center;
   margin-top: 115px;
@@ -299,6 +301,7 @@ nav li {
   line-height: 22px;
   font-family: 'Open Sans', sans-serif;
 }
+
 .success-message {
   position: fixed;
   top: 20px;
@@ -306,10 +309,16 @@ nav li {
   transform: translateX(-50%);
   background-color: #4CAF50;
   color: white;
-  padding: 20px;
-  border-radius: 15px;
+  padding: 15px 25px;
+  border-radius: 8px;
   z-index: 1000;
-  font-size: 17px;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  width: auto;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
 }
 
 .cart-container {
@@ -385,6 +394,7 @@ nav li {
   font-weight: bold;
   color: #007bff;
 }
+
 .cart-total {
   margin-top: 20px;
   padding: 15px;
@@ -415,13 +425,16 @@ nav li {
     top: 18px; 
     left: 15px;
   }
+
   nav {
     top: 0.1px;
     right: 0px;
   }
+
   nav li {
     margin-left: 20px;
   }
+
   .body-content img {
     width: 100%; 
     height: 200px; 
@@ -429,9 +442,11 @@ nav li {
     margin-top: 50px;
     object-position: center;
   }
+
   .featured-products {
     margin-top: 15px;
   }
+
   .jerseys-images {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -461,16 +476,16 @@ nav li {
 
   .imagem {
     display: flex;
-    justify-content: flex-start; /* Position the image on the left side */
-    margin-top: 20px; /* Add margin on top to give some spacing from the text */
-    width: 100%; /* Ensure the container spans the full width */
+    justify-content: flex-start; 
+    margin-top: -10px; 
+    width: 100%; 
   }
 
   .imagem img {
     width: 100%; 
     height: 300px;
     border-radius: 10px; 
-    margin-top: -710px; 
+    margin-top: -820px; 
     margin-left: 0;
   }
 
@@ -483,13 +498,13 @@ nav li {
   }
 
   .about-section {
-    display: block; /* Stack elements vertically */
+    display: block; 
     margin-top: 500px;
   }
 
   .about-section h2 {
-    font-size: 20px; 
-    line-height: 20px; 
+    font-size: 30px; 
+    line-height: 30px; 
     text-align: center; 
     margin: 0 20px; 
     padding: 0;
@@ -498,41 +513,98 @@ nav li {
   }
 
   .about-section p {
-    width: 120%;  /* Adjust width for smaller screens */
-    padding: 10px;  /* Less padding for smaller screens */
-    top: -170px;  /* Adjust positioning to prevent overlap */
-    left: -20px;  /* Align to left for better flow */
-    font-size: 16.2px;  /* Adjust font size for mobile */
-    line-height: 1.4;  /* Adjust line height for readability */
-    text-align: left;  /* Ensure text stays aligned to the left */
+    width: 100%;               
+    font-size: 1.1rem;         
+    line-height: 1.6;          
+    text-align: left;          
+    margin-left: 0;            
+    color: #333;               
+    font-family: 'Open Sans', sans-serif; 
+    position: relative;       
+    left: 0;                   
+    top: -180px;                    
+    max-width: 100%;          
+    box-sizing: border-box;   
   }
   .about-section p br {
     display: none; 
   }
-  .site-name {
-    margin-top: -200px;
-    margin-left: 65p;
+
+  .main-footer {
+    margin-top: 180px;
   }
+
+  .site-name {
+    margin-top: -370px;
+    margin-left: 64px;
+  }
+
   .site-name p {
     margin-left: 80px;
     margin-top: 12px;
     font-weight: bold;
   }
+
   .location h2 {
     margin-top: 25px;
     margin-left: 140px;
   } 
+
   .location p {
     white-space: nowrap;
     margin-left: 85px;
   }
+
   .contact h2 {
     margin-top: 30px;
     margin-left: 140px;
   }
+
   .contact p {
     margin-top: 15px;
     margin-right: 90px
+  }
 
+  .shop-page-title {
+    margin-top: 80px;
+  }
+
+  .shop-page-jersey-images-container {
+    gap: 10px;  
+    justify-content: center;
+  }
+
+  .shop-page-jersey-item {
+    width: 48%; 
+    margin-bottom: 60px; 
+  }
+
+  .shop-page-jersey-item img {
+    width: 100%; 
+  }
+
+  .shop-page-jersey-item p {
+    font-size: 13px; 
+    padding: 6px; 
+    white-space: nowrap;
+    overflow: hidden;       
+  }
+
+  .shop-page-jersey-item button {
+    width: 90%; 
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .shop-page-footer {
+    margin-top: 360px;
+  }
+
+  .success-message {
+    display: inline;
+  }
+
+  .cart-footer {
+    margin-top: 410px;
   }
 }

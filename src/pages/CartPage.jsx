@@ -33,7 +33,7 @@ function CartPage({ cart }) {
                     </div>
                 )}
             </div>
-    <footer>
+    <footer className='cart-footer'>
       <div className="site-name">
         Football Elite 
         <p> Made by <strong>me</strong> </p>
