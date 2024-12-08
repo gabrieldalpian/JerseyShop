@@ -470,7 +470,7 @@ nav li {
     width: 100%; 
     height: 300px;
     border-radius: 10px; 
-    margin-top: -800px; 
+    margin-top: -710px; 
     margin-left: 0;
   }
 
@@ -488,29 +488,30 @@ nav li {
   }
 
   .about-section h2 {
-    font-size: 20px; /* Smaller font size for mobile screens */
-    line-height: 20px; /* Adjust line height for readability */
-    text-align: center; /* Center the text for mobile */
-    margin: 0 20px; /* Add some margin for spacing */
+    font-size: 20px; 
+    line-height: 20px; 
+    text-align: center; 
+    margin: 0 20px; 
     padding: 0;
     left: 0;
     top: -520px;
   }
 
   .about-section p {
-      width: 120%;  /* Adjust width for smaller screens */
-      padding: 10px;  /* Less padding for smaller screens */
-      position: relative;
-      top: -170px;  /* Adjust positioning to prevent overlap */
-      left: -30px;  /* Align to left for better flow */
-      font-size: 12px;  /* Adjust font size for mobile */
-      line-height: 1.4;  /* Adjust line height for readability */
-      text-align: left;  /* Ensure text stays aligned to the left */
-      margin: 10px 0;  /* Add margin for spacing */
-    }
+    width: 120%;  /* Adjust width for smaller screens */
+    padding: 10px;  /* Less padding for smaller screens */
+    top: -170px;  /* Adjust positioning to prevent overlap */
+    left: -20px;  /* Align to left for better flow */
+    font-size: 16.2px;  /* Adjust font size for mobile */
+    line-height: 1.4;  /* Adjust line height for readability */
+    text-align: left;  /* Ensure text stays aligned to the left */
+  }
+  .about-section p br {
+    display: none; 
+  }
   .site-name {
     margin-top: -200px;
-    margin-left: 60px;
+    margin-left: 65p;
   }
   .site-name p {
     margin-left: 80px;
