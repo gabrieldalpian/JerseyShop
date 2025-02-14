@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="site-name">
-        Football Elite 
+        <h2>Football Elite</h2>
         <p> Made by <strong>me</strong> </p>
       </div>
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className="contact">
         <h2> Contact </h2>
-        <p>Footballelite@gmail.com</p>
+        <p>gabrieldalpian1227@gmail.com</p>
       </div>
     </footer>
   );

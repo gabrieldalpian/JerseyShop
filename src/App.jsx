@@ -95,22 +95,22 @@ function App() {
               <div className="button-view">
                 <Link to="/shop" className="button">Shop All</Link>
               </div>
-
-              <section>
-                <div className="about-section">
-                  <h2>
-                    About
-                    <br />
-                    our company
-                  </h2>
-                  <p>
-                    Welcome to Jersey Paradise! We're passionate about delivering <br></br>high-quality,
-                    authentic jerseys that let you proudly showcase your team spirit in style.
-                    Whether you're a die-hard fan or just love the game, we have the perfect jersey
-                    waiting for you!
-                  </p>
-                </div>
-              </section>
+              <section className="about-container">
+  <div className="about-title">
+    <h2>
+      About our company
+    </h2>
+  </div>
+  <div className="about-text">
+    <p>
+      Welcome to Jersey Paradise! We're passionate about delivering high-quality,
+      authentic jerseys that let you proudly showcase your team spirit in style.
+      Whether you're a die-hard fan or just love the game, we have the perfect jersey
+      waiting for you!
+    </p>
+  </div>
+</section>
+              
 
               <section>
                 <div className="imagem">

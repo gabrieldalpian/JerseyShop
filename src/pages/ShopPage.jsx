@@ -37,7 +37,6 @@ import image40 from '../assets/lyon.jpg';
 import image41 from '../assets/marseliatwo.jpg';
 import image42 from '../assets/paristwo.jpg';
 
-
 function ShopPage({ addToCart, successMessage }) {
     return (
       <div>
