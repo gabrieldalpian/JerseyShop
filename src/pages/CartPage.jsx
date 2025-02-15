@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
 
-
 function CartPage({ cart }) {
 
     const calculateTotal = () => {
